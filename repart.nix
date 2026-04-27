@@ -54,7 +54,7 @@ in
           "/armstub8-gic.bin".source = "${pkgs.raspberrypi-armstubs}/armstub8-gic.bin";
           "/config.txt".source = configTxt;
           "/".source = "${pkgs.raspberrypifw}/share/raspberrypi/boot";
-          "/loader/loader.conf".source = lib.toFile "loader.conf" ''
+          "/loader/loader.conf".source = builtins.toFile "loader.conf" ''
             timeout 20
           '';
         };
