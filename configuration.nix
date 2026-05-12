@@ -12,7 +12,7 @@
   networking.hostName = "rp4-nixos";
   users = {
     users.default = {
-      password = "defaulaasase1238e44449aaa";
+      password = "defaulaasase1238e44eee449aaa";
       openssh.authorizedKeys.keys = [
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILUlTyMHf9lIjlXuilVWZT0I9BqZUNN2gsy5U+D3SZ+Z simon.benezan@h-net.com"
         "sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIO6NPut/WhzhJNQNPlshqVHhsODamuekMPfKit9h5XVvAAAAG3NzaDpzaW1vbi5iZW5lemFuQGgtbmV0LmNvbQ== simon.benezan@h-net.com"
